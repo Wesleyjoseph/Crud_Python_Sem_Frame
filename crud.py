@@ -20,7 +20,7 @@ class Livro:
             if not livros:
                 print("Não há livros cadastrados.")
                 return
-            print("\n--- Lista de liros ---")
+            print("\n--- Lista de livros ---")
             for livro in livros:
                 print(livro)
                 print("------------------\n")
